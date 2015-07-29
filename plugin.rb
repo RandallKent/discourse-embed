@@ -1,0 +1,9 @@
+file: plugins/yoursite/plugin.rb
+# name: YourSite customizations
+# about: customizations for YourSite
+# version: 1
+# authors: ..., riking, ...
+
+...
+Rails.application.config.action_dispatch.default_headers.merge!({'X-Frame-Options' => 'ALLOWALL'})
+...
