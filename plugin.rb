@@ -1,4 +1,4 @@
-file: plugins/yoursite/plugin.rb
+# file: plugins/yoursite/plugin.rb
 # name: YourSite customizations
 # about: customizations for YourSite
 # version: 1
